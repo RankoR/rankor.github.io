@@ -80,7 +80,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      Here are some projects that I personally developed.
+      Here are some projects that I developed personally.
     assignments:
       - title: Android Smart Rate
         link: "https://github.com/RankoR/android-smart-rate"
