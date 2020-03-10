@@ -77,6 +77,12 @@ experiences:
       details: |
         Developed a prototype of Snaappy app in the face of changing requirements. 
         I quit the project during the process of the app becoming a messenger.
+    - role: Android Developer
+      time: 2012 - 2013
+      company: VenturezLab, Moscow, Russia
+      details: |
+        - Developed a commercial fork of Android OS with UI and launcher changes.
+        - Developed custom launcher for Android-based Smart TVs. It included a file manager and a media player.
 projects:
     title: Projects
     intro: >
