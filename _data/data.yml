@@ -7,183 +7,148 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Artem Smirnov
+    tagline: Android Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: artem@smirnov.page
+    phone:
+    website: smirnov.page #do not add http://
+    linkedin: artematlabster
+    github: RankoR
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 497132/int-32 # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: B2
+
+      - idiom: Russian
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
-
     interests:
-      - item: Climbing
+      - item: DIY (building, welding, etc)
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Firearms (handguns/rifles, shooting at range)
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Developing for Android for about 8 years. With the help of this experience, 
+      Google and StackOverflow, I'll probably solve any problem.
+      Trying to participate in every part of a project I work on.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Applied maths (did not graduate)
+      university: MSTU «Stankin» (Moscow, Russia)
+      time: 2009 - 2012
+      details:
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Senior Android Developer
+      time: 2018 - Present
+      company: kasko2go AG, Moscow, Russia / Zug, Switzerland
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          In a team of three Android developers, in a short time from scratch, 
+          I developed the kasko2go application (car insurance with an assessment of the driving style with the collected telemetry using no third-party devices).
+          - Participated in every part of the application development, excluding telemetry collection
+          - Let the technical part of the marketing experiments (one subordinate — web developer). 
+            Integrated A/B testing functionality, which allowed to replace any part of user flow on-the-fly without updating the application.
+          - Integrated CI (Bamboo) for automatic pull-requests checking, parametrized APK building, including starting build from Slack, sending resulting APK to 
+            Slack and Firebase App Distribution
+    - role: Senior Android Developer
+      time: 2015 - 2018
+      company: Altarix, Moscow, Russia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+          Developed from scratch an unique MDM (Mobile Device Management) solution for the Moscow's Government.
+          It was integrated in Moscow's Police departments (thousands of devices) and some other government structures, helping to:
+          - Restrict devices access 
+          - Manage installed applications
+          - Prevent loss of sensitive data
+          - Bulk remote device configurations
+    - role: Android Developer
+      time: 2014 - 2014
+      company: Snaappy, Moscow, Russia
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Developed a prototype of Snaappy app in the face of changing requirements. 
+        I quit the project during the process of the app becoming a messenger.
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Here are some projects that I personally developed.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Android Smart Rate
+        link: "https://github.com/RankoR/android-smart-rate"
+        tagline: "Smart App Rate library for Android."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Transport
+        link: https://www.apkmonk.com/app/com.wiagames.trainsschedule/
+        tagline: "First suburban schedule app in Google Play; about 300K users; Winner of «Material Design Awards» by Google (2015); currently removed from Google Play."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Cocktailer
+        link: "https://apkpure.com/ru/%D0%BA%D0%BE%D0%BA%D1%82%D0%B5%D0%B9%D0%BB%D0%B5%D1%80-%E2%80%94-1100-%D0%BA%D0%BE%D0%BA%D1%82%D0%B5%D0%B9%D0%BB%D0%B5%D0%B9/net.wiagames.cocktailer"
+        tagline: "Android app with ~1100 cocktail recipes. About 500K users; Featured by Google in 2013; currently removed from Google Play."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: GLPlay for Dota 2
+        link: "https://apkpure.com/glplay-for-dota-2/to.dota.android"
+        tagline: "Dota 2 knowledge base, news, streams and videos aggregator; 200K installs, also released on iOS; Removed from stores due to Google Play's copyright concerns"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Sudoku
+        link:
+        tagline: "Sudoku developed following the 2019-2020 development trends. Not released yet and not open-sourced, send me your Bitbucket e-mail to see the code."
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      My publications
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Few dozens of publications in the «Xakep» («hacker») magazine"
+        link:
+        authors: Artem Smirnov
+        conference: 2006-2013
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Android project code style using Spotless and ktlint"
+        link: "https://medium.com/@int_32/android-project-code-style-using-spotless-and-ktlint-5422fd90976c"
+        authors: Artem Smirnov
+        conference:
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Skillberg Android course (in Russian; outdated)"
+        link: "https://skillberg.com/courses/android/lessons/vvedenie-v-android/"
+        authors: Artem Smirnov
+        conference:
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Android
+        level:
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Kotlin
+        level:
 
-      - name: Angular
-        level: 98%
+      - name: Java
+        level:
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Python
+        level:
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: SQL
+        level:
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Git
+        level:
+      
+      - name: Linux system administration
+        level:
+
+      - name: Sketch
+        level:
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
