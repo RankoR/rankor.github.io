@@ -57,7 +57,7 @@ experiences:
           In a team of three Android developers, in a short time from scratch, 
           I developed the kasko2go application (car insurance with an assessment of the driving style with the collected telemetry using no third-party devices).
           - Participated in every part of the application development, excluding telemetry collection
-          - Let the technical part of the marketing experiments (one subordinate — web developer). 
+          - Led the technical part of the marketing experiments (one subordinate — web developer). 
             Integrated A/B testing functionality, which allowed to replace any part of user flow on-the-fly without updating the application.
           - Integrated CI (Bamboo) for automatic pull-requests checking, parametrized APK building, including starting build from Slack, sending resulting APK to 
             Slack and Firebase App Distribution
